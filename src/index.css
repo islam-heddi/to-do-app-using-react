@@ -1,0 +1,40 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body{
+  text-align: center;
+  background-color: rgb(38, 27, 27);
+  color: white;
+}
+
+ul li{
+  padding: 12px;
+  list-style: none;
+}
+
+button{
+  margin: 5px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 1px white;
+}
+
+input{
+  padding: 10px;
+}
+
+button:hover{
+  background-color: rgba(0, 0, 0, 0.283);
+  cursor:pointer;
+}
+
+
+.cancel{
+  background-color: rgb(232, 53, 53);
+}
+
+.cancel:hover{
+  background-color: rgba(232, 53, 53, 0.562);
+}
